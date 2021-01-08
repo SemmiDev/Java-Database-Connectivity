@@ -1,0 +1,9 @@
+CREATE DATABASE jdbc_clean_arch;
+USE jdbc_clean_arch;
+
+CREATE TABLE IF NOT EXISTS students (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	name VARCHAR(255) NOT NULL,
+	email VARCHAR(255) NOT NULL,
+	phone VARCHAR(10) NOT NULL
+);
